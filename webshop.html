@@ -12,8 +12,11 @@
     <div class="container">
       <div id="header">
         <span id="h-txt">Webshop</span><span id="h-punt">.</span>
-        <img id="headerimg" src="assets/images/milky-way-full-stars-space.jpg" alt="" />
-        
+        <img
+          id="headerimg"
+          src="assets/images/milky-way-full-stars-space.jpg"
+          alt=""
+        />
       </div>
       <div id="content"></div>
       <div id="menuleft">
@@ -43,15 +46,73 @@
           </div>
         </div>
         <div id="blok3">
-            <span id="prijs-txt">Prijs</span>
-            <hr>
-            <div class="slider-container">
-                <input type="range" class="slider" min="0" max="1000" step="1" value="0">
-            </div>
-            <div id="prijs0-1000">
-            <span id="nul-euro">&euro;0</span><span id="duizend-euro">&euro;1000</span>
+          <span id="prijs-txt">Prijs</span>
+          <hr />
+          <div class="slider-container">
+            <input
+              type="range"
+              class="slider"
+              min="0"
+              max="1000"
+              step="1"
+              value="0"
+            />
+          </div>
+          <div id="prijs0-1000">
+            <span id="nul-euro">&euro;0</span
+            ><span id="duizend-euro">&euro;1000</span>
+          </div>
+        </div>
+        <div id="blok4">
+          <span id="recentbekeken">Recent bekeken</span>
+          <hr />
+
+          <span
+            ><img
+              id="jupiterrecent"
+              src="https://i.pinimg.com/originals/9d/d3/3b/9dd33b6db5a889db5d344baea1107671.jpg"
+              alt="jupiter"
+          /></span>
+          <span id="eurojuprec">&euro;35</span>
+        </div>
+        <div id="blok5">
+          <span id="nieuwsbrief">Nieuwsbrief</span>
+          <hr />
+          <form action="">
+            <input id="nieuwsemail" type="email" placeholder="E-mail*" /><br />
+            <input id="nieuwsbtn" type="submit" value="Inschrijven" />
+          </form>
+        </div>
+        <div id="blok6">
+          <div id="product">
+            <span>Producten</span><br />
+            <span>vergelijken(4)</span>
+          </div>
+          <hr />
+          <form>
+          <div id="selectdiv">
+          <select>
+            <option>Jupiter</option>
+            <option>Venus</option>
+            <option>Saturnus</option>
+            <option>Aarde</option>
+          </select>
+          <br>
+          <select>
+            <option>Venus</option>
+            <option>Jupiter</option>
+            <option>Saturnus</option>
+            <option>Aarde</option>
+          </select>
+          <br>
+          <br>
+          <br>
+          <hr>
+        </div>
+          <input type="submit" value="Vergelijk" id="vergelijkbtn">
         </div>
       </div>
+
       <div id="footer"></div>
     </div>
   </body>
