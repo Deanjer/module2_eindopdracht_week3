@@ -304,8 +304,56 @@ margin-top: 8px;
     margin-top: 67px;
 }
 #planeten-h{
-    padding-top: 20px;
-    margin-left: 20px;
+    padding-top: 9px;
+    margin-left: 29px;
     font-size: 25px;
     font-weight: bold;
+}
+#top-right{
+    width: calc(100% - 306px);
+    height: 30px;
+   
+    
+}
+#select-righttop{
+    background-color: rgb(197, 195, 195);
+    border: none;
+    height: 25px;
+    width: 150px;
+    border-radius: 6px;
+    margin-left: 390px;
+}
+#hrright{
+    width: 95%;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.row1{
+    margin-top: 10px;
+    margin-left: 53px;
+    display: flex;
+}
+.kaart1{
+     width: calc(90% / 3);
+     height: 490px;
+     border: 1px solid black ;
+}
+.kaart2{
+    width: calc(90% / 3);
+    height: 490px;
+    border: 1px solid black ;
+    margin-left: 30px;
+}
+.kaart3{
+    width: calc(90% / 3);
+    height: 490px;
+    border: 1px solid black ;
+    margin-left: 30px;
+}
+
+#options-righttop {
+    width: 300px;
+    float: right;
 }
