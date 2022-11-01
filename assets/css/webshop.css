@@ -298,7 +298,7 @@ margin-top: 8px;
 }
 #content{
     width: calc(100% - 304px);
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 1000px;
     float: right;
     margin-top: 67px;
@@ -340,6 +340,13 @@ margin-top: 8px;
      height: 490px;
      border: 1px solid black ;
 }
+.imgk1{
+    width: calc(90% - 20px);
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 30px;
+    /* margin-right: 10px; */
+}
 .kaart2{
     width: calc(90% / 3);
     height: 490px;
@@ -356,4 +363,10 @@ margin-top: 8px;
 #options-righttop {
     width: 300px;
     float: right;
+}
+.k1txt{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(11, 33, 46) ;
 }
