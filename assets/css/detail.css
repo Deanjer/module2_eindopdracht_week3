@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position:fixed;  
+    top: 0; 
+}
+
+.image-groot{
+    width: 100%;
+}
+
+#change-image{
+    width:  100%;
+    height: auto;
+    margin-top: 20px;
+}
+.jupiter-button{
+    width: calc(25% - 10px);
+    height: auto;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.jupiter-button:active{
+    transform: scale(1.05, 1.1);
+}
+.jupiter-buttonimg{
+    width: 100%;
+    height: 100%;
+    
+}
+.venus-button{
+    width: calc(25% - 10px);
+    height: auto;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.venus-button:active{
+    transform: scale(1.05, 1.1);
+}
+.venus-buttonimg{
+    width: 100%;
+    height: 100%;
+}
+.saturn-button{
+    width: calc(25% - 10px);
+    height: auto;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.saturn-button:active{
+    transform: scale(1.05, 1.1);
+}
+.saturn-buttonimg{
+    width: 100%;
+    height: 100%;
+}
+.earth-button{
+    width: calc(25% - 10px);
+    height: auto;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.earth-button:active{
+    transform: scale(1.05, 1.1);
+}
+.earth-buttonimg{
+    width: 100%;
+    height: 100%;
+}
+.image-select{
+    width: 50%;
+    max-height: 600px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.images4{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
