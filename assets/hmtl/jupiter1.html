@@ -11,7 +11,9 @@
   </head>
   <body>
     <div id="header">
-      <a href="/webshop.html"><span id="h-txt">Webshop</span><span id="h-punt">.</span></a>
+      <a href="/webshop.html"
+        ><span id="h-txt">Webshop</span><span id="h-punt">.</span></a
+      >
       <div id="verstreep1"></div>
       <a href=""><p id="acount-balk">Acount</p></a>
       <a href=""
@@ -72,46 +74,47 @@
       <br /><br />
       <b
         ><span class="d-text">kies je uitvoering:</span><br /><br />
-        <form action="get">
-        <label>
-          <input type="radio" name="planets-radio" value="small" checked />
-          <img
-            class="radio-planets"
-            src="../images/planet-jupiter-vector-11088916.jpeg"
-            alt="Option 1"
-          />
-        </label>
+        <form method="get" action="/bestel.html">
+          <label>
+            <input type="radio" name="planets-radio" value="Jupiter" checked />
+            <img
+              class="radio-planets"
+              src="../images/planet-jupiter-vector-11088916.jpeg"
+              alt="Option 1"
+            />
+          </label>
 
-        <label>
-          <input type="radio" name="planets-radio" value="big" />
-          <img
-            class="radio-planets"
-            src="../images/planet-earth-vector-11088906.jpeg"
-            alt="Option 2"
-          />
-        </label>
-        <label>
-          <input type="radio" name="planets-radio" value="small" checked />
-          <img
-            class="radio-planets"
-            src="../images/planet-saturn-vector-11088920.jpeg"
-            alt="Option 1"
-          />
-        </label>
+          <label>
+            <input type="radio" name="planets-radio" value="Earth" />
+            <img
+              class="radio-planets"
+              src="../images/planet-earth-vector-11088906.jpeg"
+              alt="Option 2"
+            />
+          </label>
+          <label>
+            <input type="radio" name="planets-radio" value="Saturn" checked />
+            <img
+              class="radio-planets"
+              src="../images/planet-saturn-vector-11088920.jpeg"
+              alt="Option 1"
+            />
+          </label>
 
-        <label>
-          <input type="radio" name="planets-radio" value="big" />
-          <img
-            class="radio-planets"
-            src="../images/planet-venus-vector-10652806.jpeg"
-            alt="Option 2"
-          /> </label
-        ><br /> </b
-      ><br /><br><br> 
-      <a href="/bestel.html"><div class="bestel-knop">
-      </form>
-       <p class="w-span">winkelwagen</p></a>
-      </div>
+          <label>
+            <input type="radio" name="planets-radio" value="Venus" />
+            <img
+              class="radio-planets"
+              src="../images/planet-venus-vector-10652806.jpeg"
+              alt="Option 2"
+            /> </label
+          ><br />
+          <br /><br /><br />
+          <input href="/bestel.html" type="submit" id="submit" name="submit" />
+          <!-- <a href="/bestel.html"><div class="bestel-knop"> -->
+        </form>
+        <p class="w-span">winkelwagen</p>
+      </b>
     </div>
   </body>
 </html>
