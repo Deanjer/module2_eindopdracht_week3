@@ -184,3 +184,13 @@
     margin-top: 7px;
 }
   
+#submit{
+    width: 200px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}
+#submit:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
